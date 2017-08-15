@@ -75,7 +75,11 @@ int main(int argc, const char * argv[]) {
     std::cout << v3 << std::endl;
     std::cout << v4 << std::endl;
     
+    auto max = spaceMAX::myMAX;
+    auto max2 = myMAX2;
     
+    std::cout << max << max2 << std::endl;
+
 
     
     return 0;

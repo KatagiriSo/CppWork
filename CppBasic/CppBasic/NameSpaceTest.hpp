@@ -26,3 +26,11 @@ namespace spaceA {
         double getUtilValue();
     }
 }
+
+namespace {
+    const int myMAX2 = 100;
+}
+
+namespace spaceMAX {
+    const int myMAX = 1000;
+}
