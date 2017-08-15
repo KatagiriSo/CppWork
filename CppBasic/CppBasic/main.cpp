@@ -13,6 +13,7 @@
 #include <string>
 #include "Point.hpp"
 #include "ColorType.hpp"
+#include "NameSpaceTest.hpp"
 
 
 
@@ -45,8 +46,9 @@ int main(int argc, const char * argv[]) {
     std::cout << type4 << std::endl;
     
     // auto 型推論
-    
     auto x = "x";
+    
+    // 文字列
     std::string z = "ac";
     auto y = 3.0;
     auto z1 = z + z;
@@ -62,7 +64,18 @@ int main(int argc, const char * argv[]) {
     std::cout << z5 << std::endl;// acx
     std::cout << z6 << std::endl;// acxacx
 
+    /// 名前空間
+    auto v = getValue();
+    auto v2 = spaceA::getValue();
+    auto v3 = spaceA::specialB::getValue();
+    auto v4 = spaceA::getUtilValue();
 
+    std::cout << v << std::endl;
+    std::cout << v2 << std::endl;
+    std::cout << v3 << std::endl;
+    std::cout << v4 << std::endl;
+    
+    
 
     
     return 0;
