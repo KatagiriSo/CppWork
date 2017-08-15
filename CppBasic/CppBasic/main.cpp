@@ -10,6 +10,7 @@
 #include <sstream>
 #include <iomanip>
 #include <fstream>
+#include <string>
 #include "Point.hpp"
 #include "ColorType.hpp"
 
@@ -42,6 +43,25 @@ int main(int argc, const char * argv[]) {
     std::cout << static_cast<int>(type2) << std::endl;
     std::cout << static_cast<int>(type3) << std::endl;
     std::cout << type4 << std::endl;
+    
+    // auto 型推論
+    
+    auto x = "x";
+    std::string z = "ac";
+    auto y = 3.0;
+    auto z1 = z + z;
+    auto z2 = x + z;
+    auto z3 = z + x;
+    std::string z5 = z.append(x); // acx
+    std::string z6 = z.append(z); // acxacx
+    
+   //auto z4 = x + x;　//できない。 const char*
+    std::cout << x << std::endl;
+    std::cout << y << std::endl;
+    std::cout << z << std::endl; // acxacx
+    std::cout << z5 << std::endl;// acx
+    std::cout << z6 << std::endl;// acxacx
+
 
 
     
