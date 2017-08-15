@@ -68,6 +68,12 @@ int main(int argc, const char * argv[]) {
     std::cout << z << std::endl; // acxacx
     std::cout << z5 << std::endl;// acx
     std::cout << z6 << std::endl;// acxacx
+    
+    // decltype
+    int sample = 100;
+    decltype(sample) sample2 = 200; // Type of sample2 is Int.
+    decltype(getValue()) sample3 = 3.3;//  Type of sample3 is Int.
+    std::cout << sample << sample2 << sample3 << std::endl;
 
     //  ostringstream
     std::ostringstream oss;
@@ -83,7 +89,39 @@ int main(int argc, const char * argv[]) {
     inputstream >> s >> num >> d; // 順番に取り出している
     std::cout << "s=" << s << " num=" << num << " d=" << d << std::endl;
     
+    // escape
+    std::string stresc = "a\nb\nc";
+    std::string stresc2 = R"(a
+    b
+    c)";
+    std::cout << stresc << std::endl;
+    std::cout << stresc2 << std::endl;
     
+    // null pointer
+    int* a = nullptr;
+    if (a == nullptr) {
+        std::cout << "nullptr" << std::endl;
+    }
+    
+#if 0
+    // cin
+    std::cout << "input number" << std::endl;
+    int x;
+    std::cin >> x;
+    std::cout << "x=" << x << std::endl;
+#endif
+    
+#if 0
+    // manipulator
+    std::cout << "input string (size 3)" << std::endl;
+    char ch[3];
+    std::cin >> std::setw(sizeof(ch)) >> ch;
+    std::cout << "ch=" << ch << std::endl; // endl is also manipulator
+#endif
+    
+    // error
+    std::cerr << "cerr!" << std::endl;
+    std::clog << "clog!" << std::endl; // buffering
     
     
     /// 名前空間
