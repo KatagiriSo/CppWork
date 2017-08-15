@@ -27,6 +27,12 @@ int main(int argc, const char * argv[]) {
     
     const int c = 10;
     
+    // ref
+    int r = 0;
+    int& r2 = r;
+    r2 = 100;
+    std::cout << r << std::endl; // 100
+    
     // 構造体
     Point p;
     p.x = 10;

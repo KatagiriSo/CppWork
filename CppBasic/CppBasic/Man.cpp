@@ -39,3 +39,8 @@ void hello(Man *m) {
 bool Man::operator==(const Man &rhs) const {
     return name == rhs.name;
 }
+
+template <typename T>
+void Poi<T>::echo(T x) {
+    std::cout << "echo" << x << std::endl;
+}

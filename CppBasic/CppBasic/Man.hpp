@@ -39,4 +39,11 @@ private:
     int n = 10;
 };
 
+
+template <typename T>
+class Poi {
+public:
+    void echo(T x);
+};
+
 #endif /* Man_hpp */
