@@ -17,6 +17,8 @@
 #include "Man.hpp"
 #include "basicVariable.hpp"
 #include "streamUse.hpp"
+#include "lambdaUse.hpp"
+#include "FunctionalUse.hpp"
 
 
 
@@ -27,6 +29,8 @@ int main(int argc, const char * argv[]) {
     nameSpaceUse();
     streamUse();
     classUse();
+    lambdaUse();
+    functionalUse();
     
 
     
