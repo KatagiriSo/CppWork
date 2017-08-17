@@ -13,6 +13,8 @@
 
 #endif /* NameSpaceTest_hpp */
 
+void nameSpaceUse();
+
 double getValue();
 
 namespace spaceA {

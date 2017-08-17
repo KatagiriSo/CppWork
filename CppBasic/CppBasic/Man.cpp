@@ -8,6 +8,13 @@
 
 #include "Man.hpp"
 
+void classUse() {
+    /// クラス
+    Man *man = new Man();
+    man->hello();
+    delete man;
+}
+
 void Man::hello() {
     std::cout << "Hello, my name is " << this->name << std::endl;
     

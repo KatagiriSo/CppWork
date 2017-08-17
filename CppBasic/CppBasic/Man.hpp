@@ -12,6 +12,8 @@
 #include <stdio.h>
 #include <iostream>
 
+void classUse();
+
 
 // class
 class Man {
