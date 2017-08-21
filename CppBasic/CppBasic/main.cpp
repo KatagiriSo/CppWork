@@ -19,6 +19,7 @@
 #include "streamUse.hpp"
 #include "lambdaUse.hpp"
 #include "FunctionalUse.hpp"
+#include "RefUse.hpp"
 
 
 
@@ -31,14 +32,7 @@ int main(int argc, const char * argv[]) {
     classUse();
     lambdaUse();
     functionalUse();
-    
-
-    
-    
-    
-
-
-
+    refUse();
     
     return 0;
 }

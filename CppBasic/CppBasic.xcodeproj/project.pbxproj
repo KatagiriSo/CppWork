@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C91D37271F4ADCA1008D57A3 /* RefUse.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C91D37251F4ADCA1008D57A3 /* RefUse.cpp */; };
 		C95A1C581F42BECC004EC3F2 /* Function.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C95A1C561F42BECC004EC3F2 /* Function.cpp */; };
 		C95A1C5B1F42C07F004EC3F2 /* Man.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C95A1C591F42C07F004EC3F2 /* Man.cpp */; };
 		C95A1C5E1F42C3CA004EC3F2 /* filefunc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C95A1C5C1F42C3CA004EC3F2 /* filefunc.cpp */; };
@@ -33,6 +34,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		C91D37251F4ADCA1008D57A3 /* RefUse.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RefUse.cpp; sourceTree = "<group>"; };
+		C91D37261F4ADCA1008D57A3 /* RefUse.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = RefUse.hpp; sourceTree = "<group>"; };
 		C95A1C561F42BECC004EC3F2 /* Function.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Function.cpp; sourceTree = "<group>"; };
 		C95A1C571F42BECC004EC3F2 /* Function.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Function.hpp; sourceTree = "<group>"; };
 		C95A1C591F42C07F004EC3F2 /* Man.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Man.cpp; sourceTree = "<group>"; };
@@ -87,9 +90,11 @@
 		C9F4035E1F412A1600EA953E /* CppBasic */ = {
 			isa = PBXGroup;
 			children = (
+				C9F4035F1F412A1600EA953E /* main.cpp */,
+				C91D37251F4ADCA1008D57A3 /* RefUse.cpp */,
+				C91D37261F4ADCA1008D57A3 /* RefUse.hpp */,
 				C9B9C2C81F4528330079DE07 /* lambdaUse.cpp */,
 				C9B9C2C91F4528330079DE07 /* lambdaUse.hpp */,
-				C9F4035F1F412A1600EA953E /* main.cpp */,
 				C9B9C2C51F4525A00079DE07 /* streamUse.cpp */,
 				C9B9C2C61F4525A00079DE07 /* streamUse.hpp */,
 				C9B9C2C21F4523150079DE07 /* basicVariable.cpp */,
@@ -170,6 +175,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C9B9C2C71F4525A00079DE07 /* streamUse.cpp in Sources */,
+				C91D37271F4ADCA1008D57A3 /* RefUse.cpp in Sources */,
 				C95A1C5B1F42C07F004EC3F2 /* Man.cpp in Sources */,
 				C9F403841F427FFD00EA953E /* ColorType.cpp in Sources */,
 				C9B9C2C41F4523150079DE07 /* basicVariable.cpp in Sources */,

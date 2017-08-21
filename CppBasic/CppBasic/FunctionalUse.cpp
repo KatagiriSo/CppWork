@@ -14,6 +14,7 @@ namespace FunctionauUse {
 
 }
 
+/// 関数を変数に格納する。
 void functionalUse() {
     std::function<void(int)> f = FunctionauUse::echo;
     std::function<void(int)> f2 = FunctionauUse::add;
