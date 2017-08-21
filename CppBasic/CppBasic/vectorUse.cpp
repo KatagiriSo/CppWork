@@ -18,7 +18,22 @@ void vectorUse() {
     
     v.push_back(50);
     
+    /// もっと簡単に表示してしたい
     for (int x: v) {
         std::cout << x << std::endl;
     }
+    
+    std::vector<int> v2 = {1,3,2,5};
+    
+    /// +は使えないのだろうか。
+    v2.insert(v2.end(), v.begin(), v.end());
+    
+    
+    /// coutが面倒だ。。
+    std::cout << "v2" << std::endl;
+
+    for (int x: v2) {
+        std::cout << x << std::endl;
+    }
+
 }
