@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		C91D37271F4ADCA1008D57A3 /* RefUse.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C91D37251F4ADCA1008D57A3 /* RefUse.cpp */; };
+		C91D372A1F4AEA98008D57A3 /* vectorUse.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C91D37281F4AEA98008D57A3 /* vectorUse.cpp */; };
 		C95A1C581F42BECC004EC3F2 /* Function.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C95A1C561F42BECC004EC3F2 /* Function.cpp */; };
 		C95A1C5B1F42C07F004EC3F2 /* Man.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C95A1C591F42C07F004EC3F2 /* Man.cpp */; };
 		C95A1C5E1F42C3CA004EC3F2 /* filefunc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C95A1C5C1F42C3CA004EC3F2 /* filefunc.cpp */; };
@@ -36,6 +37,8 @@
 /* Begin PBXFileReference section */
 		C91D37251F4ADCA1008D57A3 /* RefUse.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RefUse.cpp; sourceTree = "<group>"; };
 		C91D37261F4ADCA1008D57A3 /* RefUse.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = RefUse.hpp; sourceTree = "<group>"; };
+		C91D37281F4AEA98008D57A3 /* vectorUse.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vectorUse.cpp; sourceTree = "<group>"; };
+		C91D37291F4AEA98008D57A3 /* vectorUse.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = vectorUse.hpp; sourceTree = "<group>"; };
 		C95A1C561F42BECC004EC3F2 /* Function.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Function.cpp; sourceTree = "<group>"; };
 		C95A1C571F42BECC004EC3F2 /* Function.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Function.hpp; sourceTree = "<group>"; };
 		C95A1C591F42C07F004EC3F2 /* Man.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Man.cpp; sourceTree = "<group>"; };
@@ -113,6 +116,8 @@
 				C9F403831F427FFD00EA953E /* ColorType.hpp */,
 				C9F403851F42859900EA953E /* NameSpaceTest.cpp */,
 				C9F403861F42859900EA953E /* NameSpaceTest.hpp */,
+				C91D37281F4AEA98008D57A3 /* vectorUse.cpp */,
+				C91D37291F4AEA98008D57A3 /* vectorUse.hpp */,
 			);
 			path = CppBasic;
 			sourceTree = "<group>";
@@ -175,6 +180,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C9B9C2C71F4525A00079DE07 /* streamUse.cpp in Sources */,
+				C91D372A1F4AEA98008D57A3 /* vectorUse.cpp in Sources */,
 				C91D37271F4ADCA1008D57A3 /* RefUse.cpp in Sources */,
 				C95A1C5B1F42C07F004EC3F2 /* Man.cpp in Sources */,
 				C9F403841F427FFD00EA953E /* ColorType.cpp in Sources */,

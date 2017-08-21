@@ -20,6 +20,7 @@
 #include "lambdaUse.hpp"
 #include "FunctionalUse.hpp"
 #include "RefUse.hpp"
+#include "vectorUse.hpp"
 
 
 
@@ -33,6 +34,7 @@ int main(int argc, const char * argv[]) {
     lambdaUse();
     functionalUse();
     refUse();
+    vectorUse();
     
     return 0;
 }
