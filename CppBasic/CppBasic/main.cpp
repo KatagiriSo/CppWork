@@ -21,6 +21,8 @@
 #include "FunctionalUse.hpp"
 #include "RefUse.hpp"
 #include "vectorUse.hpp"
+#include "stringUse.hpp"
+#include "iteratorUse.hpp"
 
 
 
@@ -35,6 +37,8 @@ int main(int argc, const char * argv[]) {
     functionalUse();
     refUse();
     vectorUse();
+    stringUse();
+    iteratorUse();
     
     return 0;
 }

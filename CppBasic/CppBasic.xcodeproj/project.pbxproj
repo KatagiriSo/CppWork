@@ -20,6 +20,8 @@
 		C9F403681F412B8100EA953E /* Point.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C9F403661F412B8100EA953E /* Point.cpp */; };
 		C9F403841F427FFD00EA953E /* ColorType.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C9F403821F427FFD00EA953E /* ColorType.cpp */; };
 		C9F403871F42859900EA953E /* NameSpaceTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C9F403851F42859900EA953E /* NameSpaceTest.cpp */; };
+		C9FDB4F91F4BB556003E482A /* stringUse.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C9FDB4F71F4BB556003E482A /* stringUse.cpp */; };
+		C9FDB4FC1F4BBEF4003E482A /* iteratorUse.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C9FDB4FA1F4BBEF4003E482A /* iteratorUse.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -61,6 +63,10 @@
 		C9F403831F427FFD00EA953E /* ColorType.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ColorType.hpp; sourceTree = "<group>"; };
 		C9F403851F42859900EA953E /* NameSpaceTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NameSpaceTest.cpp; sourceTree = "<group>"; };
 		C9F403861F42859900EA953E /* NameSpaceTest.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = NameSpaceTest.hpp; sourceTree = "<group>"; };
+		C9FDB4F71F4BB556003E482A /* stringUse.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = stringUse.cpp; sourceTree = "<group>"; };
+		C9FDB4F81F4BB556003E482A /* stringUse.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = stringUse.hpp; sourceTree = "<group>"; };
+		C9FDB4FA1F4BBEF4003E482A /* iteratorUse.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = iteratorUse.cpp; sourceTree = "<group>"; };
+		C9FDB4FB1F4BBEF4003E482A /* iteratorUse.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = iteratorUse.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +100,8 @@
 			isa = PBXGroup;
 			children = (
 				C9F4035F1F412A1600EA953E /* main.cpp */,
+				C9FDB4FA1F4BBEF4003E482A /* iteratorUse.cpp */,
+				C9FDB4FB1F4BBEF4003E482A /* iteratorUse.hpp */,
 				C91D37251F4ADCA1008D57A3 /* RefUse.cpp */,
 				C91D37261F4ADCA1008D57A3 /* RefUse.hpp */,
 				C9B9C2C81F4528330079DE07 /* lambdaUse.cpp */,
@@ -118,6 +126,8 @@
 				C9F403861F42859900EA953E /* NameSpaceTest.hpp */,
 				C91D37281F4AEA98008D57A3 /* vectorUse.cpp */,
 				C91D37291F4AEA98008D57A3 /* vectorUse.hpp */,
+				C9FDB4F71F4BB556003E482A /* stringUse.cpp */,
+				C9FDB4F81F4BB556003E482A /* stringUse.hpp */,
 			);
 			path = CppBasic;
 			sourceTree = "<group>";
@@ -180,9 +190,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				C9B9C2C71F4525A00079DE07 /* streamUse.cpp in Sources */,
+				C9FDB4FC1F4BBEF4003E482A /* iteratorUse.cpp in Sources */,
 				C91D372A1F4AEA98008D57A3 /* vectorUse.cpp in Sources */,
 				C91D37271F4ADCA1008D57A3 /* RefUse.cpp in Sources */,
 				C95A1C5B1F42C07F004EC3F2 /* Man.cpp in Sources */,
+				C9FDB4F91F4BB556003E482A /* stringUse.cpp in Sources */,
 				C9F403841F427FFD00EA953E /* ColorType.cpp in Sources */,
 				C9B9C2C41F4523150079DE07 /* basicVariable.cpp in Sources */,
 				C9B9C2CD1F452ACC0079DE07 /* FunctionalUse.cpp in Sources */,

@@ -25,7 +25,7 @@ void vectorUse() {
     
     std::vector<int> v2 = {1,3,2,5};
     
-    /// +は使えないのだろうか。
+    /// +は使えないのだろうか。　C++にカテゴリ拡張はない。
     v2.insert(v2.end(), v.begin(), v.end());
     
     
@@ -37,3 +37,6 @@ void vectorUse() {
     }
 
 }
+
+
+
