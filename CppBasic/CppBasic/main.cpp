@@ -23,6 +23,7 @@
 #include "vectorUse.hpp"
 #include "stringUse.hpp"
 #include "iteratorUse.hpp"
+#include "interfaceUse.hpp"
 
 
 
@@ -39,6 +40,7 @@ int main(int argc, const char * argv[]) {
     vectorUse();
     stringUse();
     iteratorUse();
+//    interfaceUse();
     
     return 0;
 }

@@ -22,6 +22,7 @@
 		C9F403871F42859900EA953E /* NameSpaceTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C9F403851F42859900EA953E /* NameSpaceTest.cpp */; };
 		C9FDB4F91F4BB556003E482A /* stringUse.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C9FDB4F71F4BB556003E482A /* stringUse.cpp */; };
 		C9FDB4FC1F4BBEF4003E482A /* iteratorUse.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C9FDB4FA1F4BBEF4003E482A /* iteratorUse.cpp */; };
+		C9FDB4FF1F4BC46F003E482A /* interfaceUse.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C9FDB4FD1F4BC46F003E482A /* interfaceUse.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -67,6 +68,8 @@
 		C9FDB4F81F4BB556003E482A /* stringUse.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = stringUse.hpp; sourceTree = "<group>"; };
 		C9FDB4FA1F4BBEF4003E482A /* iteratorUse.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = iteratorUse.cpp; sourceTree = "<group>"; };
 		C9FDB4FB1F4BBEF4003E482A /* iteratorUse.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = iteratorUse.hpp; sourceTree = "<group>"; };
+		C9FDB4FD1F4BC46F003E482A /* interfaceUse.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = interfaceUse.cpp; sourceTree = "<group>"; };
+		C9FDB4FE1F4BC46F003E482A /* interfaceUse.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = interfaceUse.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +103,8 @@
 			isa = PBXGroup;
 			children = (
 				C9F4035F1F412A1600EA953E /* main.cpp */,
+				C9FDB4FD1F4BC46F003E482A /* interfaceUse.cpp */,
+				C9FDB4FE1F4BC46F003E482A /* interfaceUse.hpp */,
 				C9FDB4FA1F4BBEF4003E482A /* iteratorUse.cpp */,
 				C9FDB4FB1F4BBEF4003E482A /* iteratorUse.hpp */,
 				C91D37251F4ADCA1008D57A3 /* RefUse.cpp */,
@@ -204,6 +209,7 @@
 				C95A1C581F42BECC004EC3F2 /* Function.cpp in Sources */,
 				C9F403601F412A1600EA953E /* main.cpp in Sources */,
 				C9F403871F42859900EA953E /* NameSpaceTest.cpp in Sources */,
+				C9FDB4FF1F4BC46F003E482A /* interfaceUse.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
